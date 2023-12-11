@@ -1,0 +1,296 @@
+<!Doctype html>
+<html>
+<head>
+    <title>EDUCATIONAL BACKGROUND</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style type="text/css">
+         *{
+            margin:0px;
+            padding:0px;
+            box-sizing: border-box;
+        }
+
+        .header{
+            overflow:auto;
+            background-color: teal;
+            position: fixed;
+            height:60px;
+            text-align: center;
+            top:0;
+            width:100%;
+            z-index: 9999;
+        }
+        .header a{
+            color:white;
+            padding:20px;
+            text-decoration:none;
+            font-size:20px;
+            width: 20%;
+            text-align: center;
+            float: left;
+            height: 60px;
+            transition: 0.5s;
+        }
+        .header a:hover{
+            background-color:lightgray;
+            color:black;
+        }
+        .header a.active{
+            background-color:Black;
+            color:white;
+        }
+
+        body{
+            background:url(lb2.jpg) no-repeat center center / cover; 
+            min-height: 1100px; 
+            padding-top: 70px;
+            padding-bottom:110px;
+        }
+        .clearfix::after{
+            content:"";
+            display:block;
+            clear:both;
+        }
+
+        #mainbody{
+            margin: auto;
+        }
+        .space1{
+            float:left;
+            margin-left: 90px;
+        }
+        .photo1{
+            width:380px;
+            height:300px;
+            border:10px solid silver;
+            border-radius: 100%;
+            margin-bottom: 15px;
+        }
+        #text1{
+            width:380px;
+            height:820px;
+            text-align: justify;
+            line-height: 30px;
+            color:black;
+            font-size:140%;
+            text-decoration:none;
+            opacity: 0.8;
+            background-color: aliceblue;
+            margin-left: 10px;
+            padding-left:10px;
+            padding-right:10px;
+            padding-top: 10px;
+            padding-bottom:10px;
+            font-family:font;
+        }
+    
+        .space2{
+            float:left;
+            margin-left:50px;
+            margin-right:50px;
+        }
+        .photo2{
+            width:380px;
+            height:300px;
+            border:10px solid silver;
+            border-radius: 100%;
+            margin-bottom: 15px;
+        }
+        #text2{
+            width:380px;
+            height:930px;
+            text-align: justify;
+            line-height: 30px;
+            color:black;
+            font-size:140%;
+            text-decoration:none;
+            opacity: 0.8;
+            background-color: aliceblue;
+            margin-left: 10px;
+            padding-left:10px;
+            padding-right:10px;
+            padding-top: 10px;
+            padding-bottom:10px;
+            font-family:font;
+        }
+
+        .space3{
+            float: left;
+            margin-right: 90px;
+        }
+        .photo3{
+            width:380px;
+            height:300px;
+            border:10px solid silver;
+            border-radius: 100%;
+            margin-bottom: 15px;
+        }
+        #text3{
+            width:380px;
+            height:830px;
+            text-align: justify;
+            line-height: 30px;
+            color:black;
+            font-size:140%;
+            text-decoration:none;
+            opacity: 0.8;
+            background-color: aliceblue;
+            margin-left: 10px;
+            padding-left:10px;
+            padding-right:10px;
+            padding-top: 10px;
+            padding-bottom:10px;
+            font-family:font;
+        }
+
+        @font-face{
+            font-family: font;
+            src: url(pd.otf);
+        }
+
+        #footer{
+            width:100%;
+            height:100px;
+            margin-top: 64px;
+            background-color: black;
+            position:fixed;
+            line-height: 25px;
+            bottom:0;
+            font-size: 120%;
+        }
+        
+        .box1{
+            text-align: center;
+            width:30%;
+            height:70px;
+            color:white;
+            background-color: black;
+            float:left;
+        }
+
+        .box2{
+            text-align: center;
+            width:30%;
+            height:70px;
+            color:white;
+            background-color: black;
+            float:left;
+            margin-left: 5%;
+            margin-right:5%;
+        }
+
+        .box3{
+            text-align: center;
+            width:30%;
+            height:70px;
+            color:white;
+            background-color: black;
+            float:left;
+        }
+        
+        .box4{
+            text-align: center;
+            color:white;
+            background-color: black;
+            font-size: 70%;
+            width:100%;
+            height:30px;
+            line-height: 15px;
+        }
+        
+        .socials{
+            color:lightskyblue;
+            transition:color 0.4s;
+            font-size:40px;
+            text-decoration: none;
+        }
+
+        .socials:hover{
+            color:violet;
+        }
+
+        .email{
+            color:lightskyblue;
+            transition:color 0.4s;
+            font-size:20px;
+            text-decoration:none;
+        }
+
+        .email:hover{
+            color:violet;
+        }
+        .effect{
+            color:rgb(99, 4, 241);
+            transition:color 0.4s;
+            font-size:20px;
+            text-decoration: none;
+        }
+        .effect:hover{
+            color:violet;
+        }
+    </style>
+</head>
+<body>
+<div class="header">
+    <a href="file:///C:/Users/User/OneDrive/Desktop/assignment-470/index.html"><span style="position: absolute; left:100px;"><ion-icon name="home"></ion-icon></span>Home</a>            
+    <a href="file:///C:/Users/User/OneDrive/Desktop/assignment-470/education.html" class="active"><span style="position: absolute; left:325px;"><ion-icon name="book"></ion-icon></span>Education Background</a>
+    <a href="file:///C:/Users/User/OneDrive/Desktop/assignment-470/hobby.html"><span style="position: absolute; left:680px;"><ion-icon name="basketball"></ion-icon></span>Hobbies</a>
+    <a href="file:///C:/Users/User/OneDrive/Desktop/assignment-470/contacts.html"><span style="position: absolute; left:975px;"><ion-icon name="call"></ion-icon></span>Contact</a>
+    <a href="file:///C:/Users/User/OneDrive/Desktop/assignment-470/about.html"><span style="position: absolute; left:1270px;"><ion-icon name="document"></ion-icon></span>Resume</a>
+</div>
+
+<div id="mainbody" class="clearfix">
+    
+    <div class="space1">
+        <div id="photo1"><img class= "photo1" src= "lyk.jpg"></div>
+
+        <div id="text1">From the age of 13-17, I went to a local high school near my area named <a class="effect" href="https://www.smjk.edu.my/school/index.php?schid=78" target="_blank">SMK Lok Yuk Kudat.</a>
+            During those years, I learnt how cruel this world is and yet how beautiful it can be after the disaster passes by. I was bullied at the age of 14 because I was different but after the bullying I learnt some valuable lessons, even if you're nice to others, that doesn't mean you will be treated the same. My "friends" back then were quite the racist so whenever I try to talk to other students of other races, I'd get mocked or verbally ridiculed. Fortunately, after I changed classes, the racial discrimination around me started to reduce and thus far there haven't been many racial issues in my life. Though I didn't have many pleasant memories in this school due to the <b>horrible</b> management there but that doesn't change that i feel nostalgic whenever I remember this school and my "delinquent" years. I blame myself for following my friend's influence and became a delinquent instead of doing things my way and studying properly when I was still in secondary school. This is the era or time where I learnt that not everything in life is easy, sometimes sacrifices are to be made.</div>
+        </div>
+
+    <div class="space2">
+        <div id="photo2"><img class= "photo2" src= "smk.jpg"></div>
+    
+        <div id="text2">At the age of 18-19, I further my studies in form 6 at a local secondary school named <a class="effect" href="https://www.wikiwand.com/ms/Sekolah_Menengah_Kebangsaan_Abdul_Rahim" target="_blank">SMK Abdul Rahim Kudat.</a> 
+            It was here that I learnt a lot on the importance of education and how it should be applied and it was here that I could fully immerse myself in my studies and socialize with anyone without being mocked or ridiculed. The students there were very serious when it comes to their studies, me included but unfortunately the reminisces of secondary still remained in me and I unfortunately wasn't able to give it my 100% at that time. During those times, Covid-19 hit us unexpectedly forcing us to conduct classes online. Some weren't able to cope but lucky I was able to adapt with online classes and therefore my marks weren't that bad. In form 6, I was given a wonderful lesson on the hardship of assignments which led to some of my downfalls but for some reason it was fun doing and finishing those assignments. It was also here that i got into my first relationship though it's online, it was still unforgettable for me but that in turn led me to lose focus and cause my grades to drop drastically. In form 6, I learnt a lot of things which I couldn't have during my secondary school years and it was here where i started to study properly. Though I still have tons of regrets, I will use those regrets to be even better in University.</div>
+        </div>
+
+        <div class="space3">
+            <div id="photo3"><img class= "photo3" src= "uitm.jpg"></div>
+        
+            <div id="text3">After form 6, I stayed at home for 6 months doing nothing and rethinking life because I forgot to fill in the form for university. During those times, I was sad and depressed, Knowing or thinking I wouldn't achieve anything good in life but didn't stop me from trying, so i kept applying to different universities even though i failed, I kept trying and trying. Fortunately UiTM, gave me a chance to redeem myself in life again and thus begins my new life in <a class="effect" href="https://selangor.uitm.edu.my/index.php/ms/ucampuses/kampus-puncak-perdana" target="_blank"> UiTM Puncak Perdana</a>. 
+                In my first semester, I struggled a bit since I was my first time living in a new state and environment but those struggles quickly dissolve with the assistance of many especially lecturers who are caring and well educated. In UiTM Puncak Perdana, I was able to redeem myself again by joining two committees, Generation Library Information Society (GenLIS) and Persatuan Mahasiswa Hadhari Puncak Perdana (PMHPP) which helped be built confidence and gained knowledge on how a workforce should act. It was here that I also met many seniors who taught me how to live my university life to the fullest with no regrets. Hopefully my story gets even better than now.</div>
+        </div>
+</div>
+
+<div id="footer" class="clearfix">
+        <div class="box1"><u>Contacts</u>
+            <br>
+            <a class="email" href="https://wa.me/60143719400" target="_blank">+60143719400</a>
+        </div>
+    
+        <div class="box2"><u>Socials</u>
+        <br>
+        <a class="socials" href="https://instagram.com/angkokvui" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+        <a class="socials" href="https://twitter.com/latdika" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+        <a class="socials" href="https://www.tiktok.com/@lat_tal_g.i?_t=8h9C6dDLE4F&_r=1 " target="_blank"><ion-icon name="logo-tiktok"></ion-icon></ion-icon></a>
+        <a class="socials" href="https://www.facebook.com/AngKokVui" target="_blank"><ion-icon name="logo-facebook"></ion-icon></ion-icon></a>
+        </div>
+    
+        <div class="box3"><u>E-mail</u>
+        <br>
+        <a class="email" href="mailto:2023136165@student.uitm.edu.my" target="blank">2023136165@student.uitm.edu.my</a>
+        </div>
+        <div class="box4">
+            Updated on: 11/12/2023
+        <br>
+        <footer>&copy;Copyright 2023 Bernard</footer>
+        </div>
+</div>
+
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
